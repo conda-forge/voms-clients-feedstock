@@ -9,4 +9,4 @@ tar xvf target/voms-clients.tar.gz
 cp voms-clients/bin/* "${PREFIX}/bin"
 
 mkdir -p "${PREFIX}/share/voms-clients/lib"
-mv voms-clients/share/java/* "${PREFIX}/share/voms-clients/lib"
+mv voms-clients/share/java/voms-clients/* "${PREFIX}/share/voms-clients/lib"
