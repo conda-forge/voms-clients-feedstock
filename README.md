@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/voms-clients-fe
 
 Home: http://italiangrid.github.io/voms/
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Summary: Command-line clients for Virtual Organization Membership Service (VOMS)
 
