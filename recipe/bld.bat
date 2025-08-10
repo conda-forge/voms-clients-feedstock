@@ -16,5 +16,6 @@ if errorlevel 1 exit 1
 
 dir voms-clients\share
 dir voms-clients\share\java
-copy "voms-clients\share\java\*" "${PREFIX}\share\voms-clients\lib"
+dir voms-clients\share\java\voms-clients
+copy "voms-clients\share\java\voms-clients\*" "${PREFIX}\share\voms-clients\lib"
 if errorlevel 1 exit 1
