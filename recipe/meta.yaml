@@ -1,5 +1,5 @@
 {% set name = "voms-clients" %}
-{% set version = "3.3.6" %}
+{% set version = "3.3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/italiangrid/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0afbf35425f119c902c8f507555c56725d99fbdb4975a11d20fe5db022d209f4
+  sha256: 37a1b0092f259027c93ccf38db218d64c94a23869160515a1f54d7bd1583f7b3
 
 build:
   number: 0
